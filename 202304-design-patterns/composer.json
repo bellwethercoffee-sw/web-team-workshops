@@ -1,0 +1,23 @@
+{
+    "name": "pirul/202304-design-patterns",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bellwethercoffee-sw/echo-module.git"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/Boot/boot.php"
+        ],
+        "psr-4": {
+            "BellwetherCoffee\\DesignPatterns\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "mrubiosan/facade": "^2.0",
+        "bellwethercoffee-sw/echo-module": "dev-master"
+    }
+}
