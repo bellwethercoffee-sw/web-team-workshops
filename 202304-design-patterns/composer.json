@@ -12,12 +12,13 @@
             "src/Boot/boot.php"
         ],
         "psr-4": {
-            "BellwetherCoffee\\DesignPatterns\\": "src/"
+            "BellwethercoffeeSw\\DesignPatterns\\": "src/"
         }
     },
     "require": {
         "guzzlehttp/guzzle": "^7.5",
         "mrubiosan/facade": "^2.0",
-        "bellwethercoffee-sw/echo-module": "dev-master"
-    }
+        "bellwethercoffee-sw/echo-module": "dev-main"
+    },
+     "minimum-stability": "dev"
 }

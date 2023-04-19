@@ -2,8 +2,14 @@
 
 use PHPUnit\Framework\TestCase;
 
+/**
+ * Test facades functionality.
+ */
 class FacadeTest extends TestCase
 {
+    /**
+     * @group facades
+     */
     public function testHttpFacade()
     {
         // Run
@@ -14,15 +20,16 @@ class FacadeTest extends TestCase
         // Assert
         $this->assertEquals(200, $response->getStatusCode());
     }
-    /*
+    /**
+     * @group facades
+     */
     public function testPrinterFacade()
     {
         // Run
-        ob_clean();
+        ob_start();
         Printer::print('test');
         $output = ob_get_clean();
         // Assert
         $this->assertEquals('test', $output);
     }
-    */
 }
