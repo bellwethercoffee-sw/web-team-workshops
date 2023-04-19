@@ -32,4 +32,15 @@ class FacadeTest extends TestCase
         // Assert
         $this->assertEquals('test', $output);
     }
+    /**
+     * @group facades
+     * @group singleton
+     */
+    public function testMarkdownFacade()
+    {
+        // Run
+        $html = Markdown::parse('# Title');
+        // Assert
+        $this->assertEquals('<h1>Title</h1>'."\n", $html);
+    }
 }

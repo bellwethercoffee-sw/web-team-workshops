@@ -18,7 +18,8 @@
     "require": {
         "guzzlehttp/guzzle": "^7.5",
         "mrubiosan/facade": "^2.0",
-        "bellwethercoffee-sw/echo-module": "dev-main"
+        "bellwethercoffee-sw/echo-module": "dev-main",
+        "cebe/markdown": "~1.2.0"
     },
      "minimum-stability": "dev"
 }

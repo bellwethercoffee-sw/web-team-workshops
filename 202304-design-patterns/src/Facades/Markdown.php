@@ -5,13 +5,13 @@ namespace BellwethercoffeeSw\DesignPatterns\Facades;
 use Mrubiosan\Facade\FacadeAccessor;
 
 /**
- * Printer facade inside project demo.
+ * Markdown facade inside project demo.
  * 
  * Facade pattern.
  * Module pattern.
  * @link https://github.com/mrubiosan/facade
  */
-class Printer extends FacadeAccessor
+class Markdown extends FacadeAccessor
 {
     /**
      * Returns service name identifier.
@@ -20,6 +20,6 @@ class Printer extends FacadeAccessor
      */
     public static function getServiceName()
     {
-       return 'printer';
+       return 'markdown';
     }
 }
