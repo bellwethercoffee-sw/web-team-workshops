@@ -5,7 +5,7 @@ namespace BellwethercoffeeSw\DesignPatterns\Modules;
 use cebe\markdown\GithubMarkdown;
 
 /**
- * Generator engine.
+ * Parser.
  * 
  * Singleton pattern.
  * @link https://github.com/mrubiosan/facade
